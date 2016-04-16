@@ -29,7 +29,7 @@
 							$stoped=true;
 						} else {
 							$atual=$atual+1;
-							echo "<p class='notok'>".$atual." / ".count($filesline)." | Trying to get the mean of <span class='notokspan'>{$hash}</span></p>";
+							echo "<p class='notok'>".$atual." / ".count($filesline)." | $line != <span class='notokspan'>{$hash}</span></p>";
 							$stoped=false;
 						}
 					}
